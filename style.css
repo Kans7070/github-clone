@@ -6,8 +6,6 @@
 .header{
     background-color: rgb(37,41,47);
     padding: 16px 32px;
-    top: 0px;
-    position: fixed;
     width: -webkit-fill-available;
     color: white;
 }
@@ -84,6 +82,11 @@
 .body-left{
     padding: 32px 32px;
     width: 21.5%;
+    
+}
+.bl-holder{
+    position: sticky;
+    top :52px;
 }
 .other-than-bl{
     width:80%;
@@ -132,13 +135,22 @@
     margin-bottom: 16px;
     display: flex;
     font-size: 14px;
+
 }
 .project-holder p{
     margin-left: 10px;
 }
+.project-holder p:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.project-holder img{
+    cursor: pointer;
+}
 .repositories-view{
     padding-bottom: 16px;
     border-bottom: 1px solid #D0D7DE;
+    cursor: pointer;
 }
 .recent-holder{
     padding-top: 16px;
@@ -240,8 +252,24 @@
     align-items: center;
     font-size: 12px;
     background-color: #F6F8FA;
+    cursor: pointer;
 }
 .activity{
     background-color: #F6F8FA;
     color: #57606A;
+}
+.header img{
+    cursor: pointer;
+    fill: #fff;
+}
+.navbar-option:hover{
+    cursor: pointer;
+    color: #D0D7DE;
+}
+.header svg{
+    cursor: pointer;
+}
+.body strong:hover{
+    color: blue;
+    cursor: pointer;
 }
